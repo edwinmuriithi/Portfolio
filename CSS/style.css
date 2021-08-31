@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading {
+    margin-left: 55em;
+}
+
 
 /* Navbar */
 
@@ -52,18 +65,7 @@
     justify-content: center;
     align-items: center;
     color: seashell;
-}
-
-#Home::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
     background: url('/images/laptop.jpg') no-repeat center center/cover;
-    height: 900px;
-    width: 100%;
-    z-index: -1;
-    opacity: .0;
 }
 
 .main {
@@ -90,6 +92,7 @@
     color: seashell;
     outline: none;
     transition: .6s ease;
+    margin-left: 25em;
 }
 
 .btn:hover {
@@ -142,14 +145,17 @@
     color: seashell;
     align-items: center;
     padding: 20px;
-    box-sizing: border-box;
 }
 
 .gallery {
     display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .gallery img {
-    width: 575px;
-    height: 400px;
+    width: 360px;
+    height: 240px;
+    margin: 10px;
 }
