@@ -134,3 +134,22 @@
 
 
 /* Portfolio */
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: seashell;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.gallery {
+    display: flex;
+}
+
+.gallery img {
+    width: 575px;
+    height: 400px;
+}
