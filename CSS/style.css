@@ -65,7 +65,7 @@ p {
     justify-content: center;
     align-items: center;
     color: seashell;
-    background: url('/images/laptop.jpg') no-repeat center center/cover;
+    background: url('../images/laptop.jpg') no-repeat center center/cover;
 }
 
 .main {
@@ -145,6 +145,11 @@ p {
     color: seashell;
     align-items: center;
     padding: 20px;
+}
+
+#portfolio h3 {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .gallery {
